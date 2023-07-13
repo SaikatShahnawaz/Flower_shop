@@ -1,0 +1,180 @@
+.header-section {
+    width: 100%;
+    height: 505px;
+    background-color: #e8dddf;
+    opacity: 10;
+}
+
+.banner {
+    display: flex;
+}
+
+.banner-img {
+    padding-top: 5px;
+    width: 380px;
+    height: 500px;
+
+}
+
+.banner-div1 {
+    width: 50%;
+    justify-content: right;
+    margin-left: 120px;
+    height: 500px;
+
+    margin-top: 40px;
+}
+
+.banner-div2 {
+    width: 50%;
+
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    color: rgb(75, 75, 75);
+}
+
+button {
+    background-color: #E55473;
+    border: none;
+    border-radius: 3px;
+    padding: 9px;
+    margin: 3px;
+    font-size: 15px;
+    color: aliceblue;
+}
+
+
+/* featured section */
+
+.featured-section{
+    margin: 70px auto 100px;
+}
+
+.featured-div1 {
+    text-align: center;
+
+}
+
+.featured-img-div {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+
+}
+
+.featured-img-div div{
+    border-radius: 100px 100px 0 0;
+    background-color: skyblue;
+    padding: 50px 30px 0px 30px;
+    text-align: center;
+    text-decoration: underline;
+    height: 200px;
+    margin-top: 10px;
+}
+
+
+.featured-img-div div img{
+    height: 200px;
+    width: 150px;
+}
+
+
+
+/* animation section */
+.animation-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-color: rgb(242, 242, 242);
+    /* padding: 80px; */
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 76%;
+    margin: 0 auto 70px;
+    text-align: center;
+}
+
+/* hot deal section */
+.hotDeal-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f3f4;
+    height: 450px;
+}
+
+.hotDeal-div1 {
+    width: 50%;
+    margin: 60px;
+    padding: 30px;
+    text-align: center;
+}
+
+.hotDeal-div2 {
+    width: 50%;
+    margin: 60px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hotDeal-div2 img {
+    width: 240px;
+    height: 330px;
+}
+
+/* instagram section */
+.instagram-div1 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.instagram-div2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.instagram-div2 img {
+
+    height: 250px;
+    width: 220px;
+}
+
+/* subscribe-section */
+
+.subscribe-section {
+    background-image: url('/Flower Asset/Rectangle\ 9.png');
+    height: 320px;
+    width: 76%;
+    margin: 70px auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+/* footer section */
+.footer-section {
+    background-color: black;
+    height: 270px;
+    color: whitesmoke;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 70px auto 0;
+}
